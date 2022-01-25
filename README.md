@@ -19,5 +19,14 @@ plt.hist(x, bins = 30, color='#00CDCD')
 
 
 ```python
+# fitting the normal distribution 
+m, s = stats.norm.fit(x) # get mean and standard deviation  
+pdf_g = stats.norm.pdf(lnspc, m, s) # now get theoretical values in our interval  
+plt.plot(lnspc, pdf_g) # plot it
+#plt.show() 
 
+#QQ Plot
+sm.qqplot(x,line='45')
 ```
+
+![Alt-текст](https://github.com/anastasiia-belova/Algorythms-in-Python/blob/main/qq%20plot.png)
