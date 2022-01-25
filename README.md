@@ -1,5 +1,7 @@
 # Algorythms in Python
 
+## Normal Distribution and simulation of AR(1) process
+
 ```python
 # Simulate Standard Normal Distribution
 mu, sigma = 0, 1 # mean and standard deviation
