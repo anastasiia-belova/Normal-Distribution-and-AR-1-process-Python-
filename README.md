@@ -1,6 +1,7 @@
 # Algorythms in Python
 
 ```
+python
 # Simulate Standard Normal Distribution
 mu, sigma = 0, 1 # mean and standard deviation
 n = 5000 # length 
