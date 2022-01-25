@@ -27,7 +27,7 @@ plt.plot(lnspc, pdf_g) # plot it
 #QQ Plot
 sm.qqplot(x,line='45')
 ```
-(https://github.com/anastasiia-belova/Algorythms-in-Python/blob/main/qq%20plot.png)
+![Alt-текст](https://github.com/anastasiia-belova/Algorythms-in-Python/blob/main/qq%20plot.png)
 
 ```python
 # Plotting with seaborn library
