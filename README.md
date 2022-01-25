@@ -12,7 +12,7 @@ plt.plot(x)
 
 ```
 # Histogram
-plt.hist(x, bins = 30, color='#00CDCD',normed = True)
+plt.hist(x, bins = 30, color='#00CDCD')
 
 ```
 ![Alt-текст](https://github.com/anastasiia-belova/Algorythms-in-Python/blob/main/Histogram.png)
