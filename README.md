@@ -10,9 +10,14 @@ plt.plot(x)
 ```
 ![Alt-текст](https://github.com/anastasiia-belova/Algorythms-in-Python/blob/main/Simulated%20data.png)
 
-```
+```python
 # Histogram
 plt.hist(x, bins = 30, color='#00CDCD')
 
 ```
 ![Alt-текст](https://github.com/anastasiia-belova/Algorythms-in-Python/blob/main/Histogram.png)
+
+
+```python
+
+```
