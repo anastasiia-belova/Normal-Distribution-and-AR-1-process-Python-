@@ -1,6 +1,15 @@
-# Algorythms in Python
+# Simulation of normal distribution and AR(1) process (Python)
 
 ## Normal Distribution and simulation of AR(1) process
+
+```python
+import numpy as np
+#from numpy import log, pi, sum, diff, array, zeros, diag, dot, mat, asarray, sqrt, copy
+import matplotlib.pyplot as plt
+import pandas as pd
+from scipy import stats 
+import statsmodels.api as sm
+```
 
 ```python
 # Simulate Standard Normal Distribution
@@ -74,13 +83,13 @@ stats.describe(np.sqrt((df-2)/df)*xt)
 # Simulate an AR(1) process
 # AR(1): y_t = phi*y_(t-1) + epsilon_t
 
-burnin = 500; T = 1000+burnin; phi = 0.8
+n = 500; T = 1000+burnin; phi = 0.8
 y= np.zeros((T,1)); e = np.random.normal(0,1,T)
 
 for t in range(1,T):
     y[t] = phi*y[t-1] + e[t]
 
-x = y[burnin:]
+x = y[n:]
 
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 # Plot things
