@@ -1,4 +1,4 @@
-# Simulation of normal distribution and AR(1) process (Python)
+# Simulation of Normal Distribution and AR(1) process (Python)
 
 ## Normal Distribution and simulation of AR(1) process
 
